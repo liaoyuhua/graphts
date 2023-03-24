@@ -2,8 +2,7 @@
 
 --------------------
 
-## Connecting the Dots: Multivariate Time Series Forecasting withGraph Neural Networks
-
+## AttrE2vec:  Unsupervised Attributed Edge Representation Learning
 
 
 
@@ -11,17 +10,10 @@
 
 <div align=center> <image src="./img/overall.png"> </div>
 
-### Graph Learning Layer
-<div align=center> <image src="./img/gl.png" width="250px"> </div>
+### Encoder
 
-$E_{1}$ and $E_{2}$ are randomly initialized node embeddings.
+<div align=center> <image src="./img/encoder.png"> </div>
 
-### Graph Convolution Module
+### Decoder
 
-<div align=center> <image src="./img/gcn.png"> </div>
-
-
-### Temporal Convolution Module
-
-<div align=center> <image src="./img/tcn.png"> </div>
-
+<div align=center> <image src="./img/decoder.png"> </div>
